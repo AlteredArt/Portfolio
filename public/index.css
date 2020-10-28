@@ -1,17 +1,83 @@
 .header{
     background-color: grey;
     width: 100%;
-    height: 100px;
+    height: 120px;
     display: flex;
     justify-content: space-between;
-
+    color: whitesmoke;
 }
-.title{
-    color: black;
-    font-size: 40px;
-    text-align: center;
+.head{
+    font-size: 3rem;
+}
+.title{  
+    font-size: 2rem;
+    padding-top: 12px;
+}
+.bio{
+    font-size: 1.5rem;
 }
 
 .links{
-    margin-right: 15px;
+    margin-right: 2%;
+    font-size: 1.3rem;
+}
+.links li{
+    padding-bottom: 5%;
+
+}
+
+.logos{
+    margin-left: 1%;
+   
+    
+}
+.logos li{
+    margin-bottom: 40%;
+}
+body{
+    text-align: center;
+    margin: 0;
+    color: black;
+}
+
+li{
+    list-style: none;
+  
+}
+
+button{
+    border: 3px dotted black;
+    padding: 1%;
+    font-size: 1rem;
+}
+
+
+button:hover{
+    font-size: 2rem;
+    border-radius: 75px;
+}
+
+
+
+
+
+/* unvisited link */
+a:link {
+color: whitesmoke;
+}
+
+/* visited link */
+a:visited {
+color: whitesmoke;
+}
+
+/* mouse over link */
+a:hover {
+color: gold;
+
+}
+
+/* selected link */
+a:active {
+color: whitesmoke;
 }
